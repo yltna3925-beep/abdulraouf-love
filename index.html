@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10152f">
+<title>رسالة إلى عبد الرؤوف 💗</title>
+<style>
+:root{
+  --night:#10152f; --night2:#1b2146; --pink:#ffb6ca; --rose:#f477a2;
+  --gold:#ffdca0; --cream:#fff5f4; --muted:#c9c9e3;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ margin:0;color:var(--cream);font-family:Tahoma,Arial,sans-serif;
+ background:radial-gradient(ellipse at 75% 4%,#41436d 0,#20264c 27%,#10152f 68%);
+ min-height:100vh;overflow-x:hidden
+}
+body:before{
+ content:"";position:fixed;inset:0;pointer-events:none;opacity:.7;z-index:-1;
+ background-image:
+ radial-gradient(2px 2px at 12% 18%,#fff 45%,transparent 60%),
+ radial-gradient(1px 1px at 28% 34%,#ffe4bc 45%,transparent 60%),
+ radial-gradient(2px 2px at 66% 13%,#fff 45%,transparent 60%),
+ radial-gradient(1px 1px at 83% 29%,#fff 45%,transparent 60%),
+ radial-gradient(1.5px 1.5px at 45% 8%,#ffd7e2 45%,transparent 60%),
+ radial-gradient(1px 1px at 91% 63%,#fff 45%,transparent 60%),
+ radial-gradient(2px 2px at 8% 70%,#fff 45%,transparent 60%);
+ background-size:100% 100%;
+}
+.moon{position:fixed;top:34px;left:7%;width:88px;height:88px;border-radius:50%;
+ background:radial-gradient(circle at 35% 30%,#fff8dc,#ffe3a0 58%,#f4bd79);
+ box-shadow:0 0 28px #ffe2a055,0 0 80px #f8cba522;opacity:.9;z-index:-1}
+.moon:after{content:"";position:absolute;inset:12px 18px 18px 10px;border-radius:50%;background:#e7c78a22}
+.wrap{width:min(760px,100%);margin:auto;padding:22px 18px 60px}
+.topline{text-align:center;color:var(--pink);font-size:13px;letter-spacing:2px;margin:9px 0 30px}
+.hero{text-align:center;min-height:88vh;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative}
+.eyebrow{color:var(--pink);font-size:17px;margin-bottom:12px}
+h1{font-size:clamp(38px,9vw,66px);line-height:1.3;margin:0;color:#ffe1b4;text-shadow:0 0 28px #f8a8c844;font-weight:700}
+.subtitle{color:var(--muted);font-size:16px;line-height:1.9;margin:12px 0 25px}
+.heart-button{border:1px solid #ffb6ca88;background:linear-gradient(145deg,#ffb8cd,#e66c9c);color:#34162b;
+ width:104px;height:96px;clip-path:path("M 52 88 C 43 79 4 54 4 29 C 4 1 37 -5 52 18 C 67 -5 100 1 100 29 C 100 54 61 79 52 88 Z");
+ font-size:25px;cursor:pointer;filter:drop-shadow(0 0 18px #f477a288);transition:transform .25s;position:relative}
+.heart-button:hover{transform:scale(1.08)}
+.heart-label{font-size:14px;color:#ffe1ec;margin-top:7px}
+.hint{font-size:12px;color:#b9bad8;margin-top:15px}
+section{margin:28px auto 0;padding:25px 20px;border:1px solid #ffffff19;border-radius:24px;
+ background:linear-gradient(145deg,#ffffff0d,#ffffff05);box-shadow:0 18px 50px #05081720;backdrop-filter:blur(6px)}
+.section-kicker{color:var(--pink);font-size:13px;text-align:center;letter-spacing:1px}
+h2{text-align:center;font-size:26px;color:#ffe0e8;margin:9px 0 19px}
+.counter-intro{text-align:center;color:var(--muted);line-height:1.9}
+.counter{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:18px}
+.timebox{background:#0d122a8c;border:1px solid #ffffff13;border-radius:15px;padding:13px 4px;text-align:center}
+.timebox b{display:block;font-size:clamp(19px,5vw,29px);color:var(--gold);direction:ltr}
+.timebox span{display:block;font-size:12px;color:var(--muted);margin-top:6px}
+.reasons{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.reason{padding:17px 12px;border-radius:16px;text-align:center;background:#f7a8c510;border:1px solid #f7a8c52b;line-height:1.8}
+.reason .ico{font-size:24px;display:block;margin-bottom:5px}
+.reason p{margin:0;color:#f9e9f0;font-size:14px}
+.tapnote{text-align:center;color:var(--muted);font-size:12px;margin-top:14px}
+.story-card{background:linear-gradient(135deg,#ffffff12,#ffffff05);border:1px solid #ffffff1c;border-radius:18px;padding:22px;text-align:center;min-height:142px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.story-card .big{font-size:30px;margin-bottom:9px}
+.story-card p{line-height:1.9;margin:0;color:#fff0f4}
+.story-controls{display:flex;justify-content:center;align-items:center;gap:16px;margin-top:15px}
+.small-btn{background:#ffffff0c;border:1px solid #ffb6ca66;color:#ffe0e8;padding:9px 16px;border-radius:99px;font:inherit;cursor:pointer}
+#storyIndex{font-size:12px;color:var(--muted)}
+.envelopes{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.envelope{border:1px solid #ffb6ca45;background:#f6a4c20b;color:#ffeaf0;border-radius:15px;padding:15px 5px;cursor:pointer;font:inherit;line-height:1.8;min-height:96px}
+.envelope span{display:block;font-size:26px}
+.envelope:hover{background:#f6a4c21a}
+.note{display:none;margin-top:14px;padding:18px;border-radius:15px;background:#0c1129aa;border:1px solid #ffb6ca35;text-align:center;line-height:2;color:#fff1f4}
+.note.show{display:block;animation:fade .35s ease}
+.final{text-align:center;padding:34px 12px 14px}
+.final .bigheart{font-size:43px;color:var(--pink);text-shadow:0 0 25px #ff91b866}
+.final p{line-height:2;color:#ffeaf0}
+.date{color:var(--gold);font-size:18px;letter-spacing:2px;direction:ltr;display:inline-block}
+footer{text-align:center;color:#a8aacb;font-size:11px;margin-top:24px}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#fff0f5;color:#3b1830;padding:12px 18px;border-radius:20px;box-shadow:0 8px 30px #0004;display:none;z-index:5}
+@keyframes fade{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+.float{animation:float 4s ease-in-out infinite}
+@media(max-width:420px){.wrap{padding:17px 13px 40px}.reasons{grid-template-columns:1fr 1fr}section{padding:22px 14px}.envelopes{gap:6px}.envelope{font-size:12px;padding:10px 3px}.counter{gap:5px}.timebox{padding:11px 2px}}
+</style>
+</head>
+<body>
+<div class="moon"></div>
+<main class="wrap">
+  <div class="topline">✦ رسالة صغيرة من القلب ✦</div>
+  <header class="hero" id="top">
+    <div class="eyebrow">إلى زوجي الغالي</div>
+    <h1>عبد الرؤوف</h1>
+    <p class="subtitle">في كل نجمة حكاية…<br>وحكايتي الحلوة هي أنت ❤️</p>
+    <button class="heart-button float" id="openHeart" aria-label="افتح قلبي">♥</button>
+    <div class="heart-label">اضغط على القلب لتفتح رسالتك</div>
+    <div class="hint">↓ وفي شي كمان تحت</div>
+  </header>
+
+  <section id="letter" hidden>
+    <div class="section-kicker">من قلبي إلك</div>
+    <h2>يا عبد الرؤوف، حبيبي ❤️</h2>
+    <p style="text-align:center;line-height:2.15;color:#fff0f4;margin:0">
+      من يوم ما صرت زوجي ورفيق دربي، صار للحياة طعم أحلى وللأيام معنى أجمل.
+      وجودك جنبي أمان، وصوتك راحة، واهتمامك تفاصيل صغيرة بتخلّي قلبي يحبك كل يوم أكتر.
+      <br><br>
+      يمكن ما تكفي كل الكلمات حتى أوصف قديش إنت غالي على قلبي، بس بدي تضل متذكّر إنك شريكي وحبيبي ورفيق العمر.
+      <br><br>
+      لو رجع فيني الزمن، بختارك من جديد، وبكل مرة رح أختار إيدك اللي أمسكها وطريقنا اللي نكمّله سوا.
+      <br><br>
+      <strong style="color:#ffdca0">بحبك اليوم، وبكرا، وكل يوم ❤️</strong>
+    </p>
+  </section>
+
+  <section>
+    <div class="section-kicker">حكايتنا الحلوة</div>
+    <h2>صرلنا مع بعض 💫</h2>
+    <div class="counter-intro">من يوم زواجنا، 3 أيار 2012، لليوم… وكل يوم إله مكان بقلبي.</div>
+    <div class="counter" aria-live="polite">
+      <div class="timebox"><b id="days">—</b><span>يوم</span></div>
+      <div class="timebox"><b id="hours">—</b><span>ساعة</span></div>
+      <div class="timebox"><b id="minutes">—</b><span>دقيقة</span></div>
+      <div class="timebox"><b id="seconds">—</b><span>ثانية</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-kicker">أشياء صغيرة، وحب كبير</div>
+    <h2>ليش بحبك؟</h2>
+    <div class="reasons">
+      <div class="reason"><span class="ico">🌙</span><p>لأن وجودك بيطمن قلبي حتى بأصعب الأيام.</p></div>
+      <div class="reason"><span class="ico">🤍</span><p>لأنك شريكي، ورفيق عمري، وسندي.</p></div>
+      <div class="reason"><span class="ico">✨</span><p>لأن ضحكتك بتخلّي يومي أحلى.</p></div>
+      <div class="reason"><span class="ico">💌</span><p>لأن تفاصيلك الصغيرة صارت من أجمل تفاصيل حياتي.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-kicker">من أول يوم لهلأ</div>
+    <h2>محطات من حكايتنا 📖</h2>
+    <div class="story-card">
+      <div class="big" id="storyIcon">💍</div>
+      <p id="storyText">يوم زواجنا… بداية حكاية بعدها عم تكبر بالمحبة والذكريات.</p>
+    </div>
+    <div class="story-controls">
+      <button class="small-btn" id="prevStory">السابق</button>
+      <span id="storyIndex">١ من ٤</span>
+      <button class="small-btn" id="nextStory">اللي بعده ♥</button>
+    </div>
+    <div class="tapnote">قلّب البطاقات لتقرأ حكايتنا</div>
+  </section>
+
+  <section>
+    <div class="section-kicker">افتحها لمّا…</div>
+    <h2>رسائل صغيرة إلك 💌</h2>
+    <div class="envelopes">
+      <button class="envelope" data-note="إذا كان يومك طويل، تذكّر إن في قلب بيحبك وبيتمنالك الراحة والفرح. الله يهوّن عليك كل تعب ويعطيك قد ما بتعطي اللي حولك خير."><span>✉️</span>تكون تعبان</button>
+      <button class="envelope" data-note="بس حبيت ذكّرك إنك غالي كتير على قلبي، وإن وجودك بحياتي نعمة بشكر ربّي عليها. بحبك يا عبد الرؤوف ❤️"><span>💌</span>تحتاج كلمة حلوة</button>
+      <button class="envelope" data-note="تذكّر إن أجمل شي بحكايتنا مو إنها كانت كاملة، بل إننا عم نعيشها سوا، يوم ورا يوم، بمحبة وصبر وأمل."><span>🌙</span>تشتاقلي</button>
+    </div>
+    <div class="note" id="noteBox" aria-live="polite"></div>
+  </section>
+
+  <div class="final">
+    <div class="bigheart">♥</div>
+    <p>إلى زوجي وحبيبي عبد الرؤوف<br>معك… الحياة أجمل، والعمر أحنّ.</p>
+    <div class="date">3 / 5 / 2012</div>
+    <p style="color:#f4b7cb;font-size:14px">ذكرى يوم صرنا فيه حكاية وحدة ✨</p>
+    <button class="small-btn" id="backTop">اقرأها من جديد ↑</button>
+  </div>
+  <footer>صُمّمت بمحبة، لتكون ذكرى صغيرة من القلب ♥</footer>
+</main>
+<div class="toast" id="toast">كل الحب إلكم ❤️</div>
+<script>
+const openHeart=document.getElementById('openHeart');
+const letter=document.getElementById('letter');
+openHeart.addEventListener('click',()=>{
+  letter.hidden=false;
+  letter.scrollIntoView({behavior:'smooth',block:'start'});
+  openHeart.textContent='♥';
+  const toast=document.getElementById('toast');
+  toast.style.display='block'; setTimeout(()=>toast.style.display='none',2200);
+});
+function updateCounter(){
+  const start=new Date(2012,4,3,0,0,0);
+  let diff=Math.max(0,Date.now()-start.getTime());
+  const day=86400000,hour=3600000,minute=60000;
+  document.getElementById('days').textContent=Math.floor(diff/day).toLocaleString('ar');
+  diff%=day;
+  document.getElementById('hours').textContent=Math.floor(diff/hour).toLocaleString('ar');
+  diff%=hour;
+  document.getElementById('minutes').textContent=Math.floor(diff/minute).toLocaleString('ar');
+  document.getElementById('seconds').textContent=Math.floor((diff%minute)/1000).toLocaleString('ar');
+}
+updateCounter();setInterval(updateCounter,1000);
+const stories=[
+ ['💍','يوم زواجنا… بداية حكاية بعدها عم تكبر بالمحبة والذكريات.'],
+ ['🌙','ليالي طويلة وحكي ما بيخلص، وتفاصيل صغيرة صارت ذكريات غالية.'],
+ ['🌷','تعلّمنا إن المحبة مو بس كلمات، المحبة مواقف واهتمام ووقفة جنب بعض.'],
+ ['✨','واليوم، بعد كل هالسنين، بتمنّى تضل أيامنا الجاية مليانة ستر وراحة وضحكات وحب.']
+];
+let story=0;
+function showStory(){document.getElementById('storyIcon').textContent=stories[story][0];document.getElementById('storyText').textContent=stories[story][1];document.getElementById('storyIndex').textContent=(story+1).toLocaleString('ar')+' من '+stories.length.toLocaleString('ar');}
+document.getElementById('nextStory').addEventListener('click',()=>{story=(story+1)%stories.length;showStory()});
+document.getElementById('prevStory').addEventListener('click',()=>{story=(story+stories.length-1)%stories.length;showStory()});
+document.querySelectorAll('.envelope').forEach(btn=>btn.addEventListener('click',()=>{const box=document.getElementById('noteBox');box.textContent=btn.dataset.note;box.classList.add('show');}));
+document.getElementById('backTop').addEventListener('click',()=>{window.scrollTo({top:0,behavior:'smooth'});});
+</script>
+</body>
+</html>
